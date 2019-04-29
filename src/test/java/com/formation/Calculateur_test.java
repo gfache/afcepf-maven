@@ -25,4 +25,10 @@ class Calculateur_test {
 		assertEquals(6,calcul.multiply(2,3),"Multiply not OK!!!");
 		//fail("Not yet implemented");
 	}
+	
+	@Test
+	void divTest() {
+		assertEquals(5,calcul.div(15,3),"Div not OK!!!");
+		//fail("Not yet implemented");
+	}
 }
